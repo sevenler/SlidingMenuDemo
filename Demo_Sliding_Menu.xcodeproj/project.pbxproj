@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6C92ACB1A0B6B5400B08E2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C92ACA1A0B6B5400B08E2C /* Foundation.framework */; };
+		F6C92ACD1A0B6B5400B08E2C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C92ACC1A0B6B5400B08E2C /* CoreGraphics.framework */; };
+		F6C92ACF1A0B6B5400B08E2C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C92ACE1A0B6B5400B08E2C /* UIKit.framework */; };
+		F6C92AD51A0B6B5400B08E2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6C92AD31A0B6B5400B08E2C /* InfoPlist.strings */; };
+		F6C92AD71A0B6B5400B08E2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C92AD61A0B6B5400B08E2C /* main.m */; };
+		F6C92ADB1A0B6B5400B08E2C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C92ADA1A0B6B5400B08E2C /* AppDelegate.m */; };
+		F6C92ADD1A0B6B5400B08E2C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6C92ADC1A0B6B5400B08E2C /* Images.xcassets */; };
+		F6C92AE41A0B6B5400B08E2C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C92AE31A0B6B5400B08E2C /* XCTest.framework */; };
+		F6C92AE51A0B6B5400B08E2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C92ACA1A0B6B5400B08E2C /* Foundation.framework */; };
+		F6C92AE61A0B6B5400B08E2C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C92ACE1A0B6B5400B08E2C /* UIKit.framework */; };
+		F6C92AEE1A0B6B5400B08E2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6C92AEC1A0B6B5400B08E2C /* InfoPlist.strings */; };
+		F6C92AF01A0B6B5400B08E2C /* Demo_Sliding_MenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C92AEF1A0B6B5400B08E2C /* Demo_Sliding_MenuTests.m */; };
+		F6C92AFB1A0B6BF100B08E2C /* WMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C92AFA1A0B6BF100B08E2C /* WMenuViewController.m */; };
+		F6C92AFE1A0B6CE500B08E2C /* WHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C92AFD1A0B6CE500B08E2C /* WHomeViewController.m */; };
+		F6C92B0D1A0B6E7F00B08E2C /* ECPercentDrivenInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C92B011A0B6E7F00B08E2C /* ECPercentDrivenInteractiveTransition.m */; };
+		F6C92B0E1A0B6E7F00B08E2C /* ECSlidingAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C92B031A0B6E7F00B08E2C /* ECSlidingAnimationController.m */; };
+		F6C92B0F1A0B6E7F00B08E2C /* ECSlidingInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C92B061A0B6E7F00B08E2C /* ECSlidingInteractiveTransition.m */; };
+		F6C92B101A0B6E7F00B08E2C /* ECSlidingSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C92B081A0B6E7F00B08E2C /* ECSlidingSegue.m */; };
+		F6C92B111A0B6E7F00B08E2C /* ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C92B0A1A0B6E7F00B08E2C /* ECSlidingViewController.m */; };
+		F6C92B121A0B6E7F00B08E2C /* UIViewController+ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C92B0C1A0B6E7F00B08E2C /* UIViewController+ECSlidingViewController.m */; };
+		F6C92B151A0BC0C100B08E2C /* WDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C92B141A0BC0C100B08E2C /* WDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6C92AE71A0B6B5400B08E2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6C92ABF1A0B6B5400B08E2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6C92AC61A0B6B5400B08E2C;
+			remoteInfo = Demo_Sliding_Menu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6C92AC71A0B6B5400B08E2C /* Demo_Sliding_Menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo_Sliding_Menu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6C92ACA1A0B6B5400B08E2C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F6C92ACC1A0B6B5400B08E2C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F6C92ACE1A0B6B5400B08E2C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F6C92AD21A0B6B5400B08E2C /* Demo_Sliding_Menu-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Demo_Sliding_Menu-Info.plist"; sourceTree = "<group>"; };
+		F6C92AD41A0B6B5400B08E2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F6C92AD61A0B6B5400B08E2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6C92AD81A0B6B5400B08E2C /* Demo_Sliding_Menu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo_Sliding_Menu-Prefix.pch"; sourceTree = "<group>"; };
+		F6C92AD91A0B6B5400B08E2C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F6C92ADA1A0B6B5400B08E2C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F6C92ADC1A0B6B5400B08E2C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F6C92AE21A0B6B5400B08E2C /* Demo_Sliding_MenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo_Sliding_MenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6C92AE31A0B6B5400B08E2C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F6C92AEB1A0B6B5400B08E2C /* Demo_Sliding_MenuTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Demo_Sliding_MenuTests-Info.plist"; sourceTree = "<group>"; };
+		F6C92AED1A0B6B5400B08E2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F6C92AEF1A0B6B5400B08E2C /* Demo_Sliding_MenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_Sliding_MenuTests.m; sourceTree = "<group>"; };
+		F6C92AF91A0B6BF100B08E2C /* WMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMenuViewController.h; sourceTree = "<group>"; };
+		F6C92AFA1A0B6BF100B08E2C /* WMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMenuViewController.m; sourceTree = "<group>"; };
+		F6C92AFC1A0B6CE500B08E2C /* WHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHomeViewController.h; sourceTree = "<group>"; };
+		F6C92AFD1A0B6CE500B08E2C /* WHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHomeViewController.m; sourceTree = "<group>"; };
+		F6C92B001A0B6E7F00B08E2C /* ECPercentDrivenInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ECPercentDrivenInteractiveTransition.h; path = ecsliding_menu/ECPercentDrivenInteractiveTransition.h; sourceTree = SOURCE_ROOT; };
+		F6C92B011A0B6E7F00B08E2C /* ECPercentDrivenInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ECPercentDrivenInteractiveTransition.m; path = ecsliding_menu/ECPercentDrivenInteractiveTransition.m; sourceTree = SOURCE_ROOT; };
+		F6C92B021A0B6E7F00B08E2C /* ECSlidingAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ECSlidingAnimationController.h; path = ecsliding_menu/ECSlidingAnimationController.h; sourceTree = SOURCE_ROOT; };
+		F6C92B031A0B6E7F00B08E2C /* ECSlidingAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ECSlidingAnimationController.m; path = ecsliding_menu/ECSlidingAnimationController.m; sourceTree = SOURCE_ROOT; };
+		F6C92B041A0B6E7F00B08E2C /* ECSlidingConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ECSlidingConstants.h; path = ecsliding_menu/ECSlidingConstants.h; sourceTree = SOURCE_ROOT; };
+		F6C92B051A0B6E7F00B08E2C /* ECSlidingInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ECSlidingInteractiveTransition.h; path = ecsliding_menu/ECSlidingInteractiveTransition.h; sourceTree = SOURCE_ROOT; };
+		F6C92B061A0B6E7F00B08E2C /* ECSlidingInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ECSlidingInteractiveTransition.m; path = ecsliding_menu/ECSlidingInteractiveTransition.m; sourceTree = SOURCE_ROOT; };
+		F6C92B071A0B6E7F00B08E2C /* ECSlidingSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ECSlidingSegue.h; path = ecsliding_menu/ECSlidingSegue.h; sourceTree = SOURCE_ROOT; };
+		F6C92B081A0B6E7F00B08E2C /* ECSlidingSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ECSlidingSegue.m; path = ecsliding_menu/ECSlidingSegue.m; sourceTree = SOURCE_ROOT; };
+		F6C92B091A0B6E7F00B08E2C /* ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ECSlidingViewController.h; path = ecsliding_menu/ECSlidingViewController.h; sourceTree = SOURCE_ROOT; };
+		F6C92B0A1A0B6E7F00B08E2C /* ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ECSlidingViewController.m; path = ecsliding_menu/ECSlidingViewController.m; sourceTree = SOURCE_ROOT; };
+		F6C92B0B1A0B6E7F00B08E2C /* UIViewController+ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+ECSlidingViewController.h"; path = "ecsliding_menu/UIViewController+ECSlidingViewController.h"; sourceTree = SOURCE_ROOT; };
+		F6C92B0C1A0B6E7F00B08E2C /* UIViewController+ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+ECSlidingViewController.m"; path = "ecsliding_menu/UIViewController+ECSlidingViewController.m"; sourceTree = SOURCE_ROOT; };
+		F6C92B131A0BC0C100B08E2C /* WDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDetailViewController.h; sourceTree = "<group>"; };
+		F6C92B141A0BC0C100B08E2C /* WDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6C92AC41A0B6B5400B08E2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6C92ACD1A0B6B5400B08E2C /* CoreGraphics.framework in Frameworks */,
+				F6C92ACF1A0B6B5400B08E2C /* UIKit.framework in Frameworks */,
+				F6C92ACB1A0B6B5400B08E2C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6C92ADF1A0B6B5400B08E2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6C92AE41A0B6B5400B08E2C /* XCTest.framework in Frameworks */,
+				F6C92AE61A0B6B5400B08E2C /* UIKit.framework in Frameworks */,
+				F6C92AE51A0B6B5400B08E2C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6C92ABE1A0B6B5400B08E2C = {
+			isa = PBXGroup;
+			children = (
+				F6C92AD01A0B6B5400B08E2C /* Demo_Sliding_Menu */,
+				F6C92AE91A0B6B5400B08E2C /* Demo_Sliding_MenuTests */,
+				F6C92AC91A0B6B5400B08E2C /* Frameworks */,
+				F6C92AC81A0B6B5400B08E2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6C92AC81A0B6B5400B08E2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6C92AC71A0B6B5400B08E2C /* Demo_Sliding_Menu.app */,
+				F6C92AE21A0B6B5400B08E2C /* Demo_Sliding_MenuTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6C92AC91A0B6B5400B08E2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6C92ACA1A0B6B5400B08E2C /* Foundation.framework */,
+				F6C92ACC1A0B6B5400B08E2C /* CoreGraphics.framework */,
+				F6C92ACE1A0B6B5400B08E2C /* UIKit.framework */,
+				F6C92AE31A0B6B5400B08E2C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6C92AD01A0B6B5400B08E2C /* Demo_Sliding_Menu */ = {
+			isa = PBXGroup;
+			children = (
+				F6C92AFF1A0B6E6500B08E2C /* ecsliding_menu */,
+				F6C92AD91A0B6B5400B08E2C /* AppDelegate.h */,
+				F6C92ADA1A0B6B5400B08E2C /* AppDelegate.m */,
+				F6C92ADC1A0B6B5400B08E2C /* Images.xcassets */,
+				F6C92AD11A0B6B5400B08E2C /* Supporting Files */,
+				F6C92AF91A0B6BF100B08E2C /* WMenuViewController.h */,
+				F6C92AFA1A0B6BF100B08E2C /* WMenuViewController.m */,
+				F6C92AFC1A0B6CE500B08E2C /* WHomeViewController.h */,
+				F6C92AFD1A0B6CE500B08E2C /* WHomeViewController.m */,
+				F6C92B131A0BC0C100B08E2C /* WDetailViewController.h */,
+				F6C92B141A0BC0C100B08E2C /* WDetailViewController.m */,
+			);
+			path = Demo_Sliding_Menu;
+			sourceTree = "<group>";
+		};
+		F6C92AD11A0B6B5400B08E2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6C92AD21A0B6B5400B08E2C /* Demo_Sliding_Menu-Info.plist */,
+				F6C92AD31A0B6B5400B08E2C /* InfoPlist.strings */,
+				F6C92AD61A0B6B5400B08E2C /* main.m */,
+				F6C92AD81A0B6B5400B08E2C /* Demo_Sliding_Menu-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6C92AE91A0B6B5400B08E2C /* Demo_Sliding_MenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6C92AEF1A0B6B5400B08E2C /* Demo_Sliding_MenuTests.m */,
+				F6C92AEA1A0B6B5400B08E2C /* Supporting Files */,
+			);
+			path = Demo_Sliding_MenuTests;
+			sourceTree = "<group>";
+		};
+		F6C92AEA1A0B6B5400B08E2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6C92AEB1A0B6B5400B08E2C /* Demo_Sliding_MenuTests-Info.plist */,
+				F6C92AEC1A0B6B5400B08E2C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6C92AFF1A0B6E6500B08E2C /* ecsliding_menu */ = {
+			isa = PBXGroup;
+			children = (
+				F6C92B001A0B6E7F00B08E2C /* ECPercentDrivenInteractiveTransition.h */,
+				F6C92B011A0B6E7F00B08E2C /* ECPercentDrivenInteractiveTransition.m */,
+				F6C92B021A0B6E7F00B08E2C /* ECSlidingAnimationController.h */,
+				F6C92B031A0B6E7F00B08E2C /* ECSlidingAnimationController.m */,
+				F6C92B041A0B6E7F00B08E2C /* ECSlidingConstants.h */,
+				F6C92B051A0B6E7F00B08E2C /* ECSlidingInteractiveTransition.h */,
+				F6C92B061A0B6E7F00B08E2C /* ECSlidingInteractiveTransition.m */,
+				F6C92B071A0B6E7F00B08E2C /* ECSlidingSegue.h */,
+				F6C92B081A0B6E7F00B08E2C /* ECSlidingSegue.m */,
+				F6C92B091A0B6E7F00B08E2C /* ECSlidingViewController.h */,
+				F6C92B0A1A0B6E7F00B08E2C /* ECSlidingViewController.m */,
+				F6C92B0B1A0B6E7F00B08E2C /* UIViewController+ECSlidingViewController.h */,
+				F6C92B0C1A0B6E7F00B08E2C /* UIViewController+ECSlidingViewController.m */,
+			);
+			name = ecsliding_menu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6C92AC61A0B6B5400B08E2C /* Demo_Sliding_Menu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6C92AF31A0B6B5400B08E2C /* Build configuration list for PBXNativeTarget "Demo_Sliding_Menu" */;
+			buildPhases = (
+				F6C92AC31A0B6B5400B08E2C /* Sources */,
+				F6C92AC41A0B6B5400B08E2C /* Frameworks */,
+				F6C92AC51A0B6B5400B08E2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo_Sliding_Menu;
+			productName = Demo_Sliding_Menu;
+			productReference = F6C92AC71A0B6B5400B08E2C /* Demo_Sliding_Menu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6C92AE11A0B6B5400B08E2C /* Demo_Sliding_MenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6C92AF61A0B6B5400B08E2C /* Build configuration list for PBXNativeTarget "Demo_Sliding_MenuTests" */;
+			buildPhases = (
+				F6C92ADE1A0B6B5400B08E2C /* Sources */,
+				F6C92ADF1A0B6B5400B08E2C /* Frameworks */,
+				F6C92AE01A0B6B5400B08E2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6C92AE81A0B6B5400B08E2C /* PBXTargetDependency */,
+			);
+			name = Demo_Sliding_MenuTests;
+			productName = Demo_Sliding_MenuTests;
+			productReference = F6C92AE21A0B6B5400B08E2C /* Demo_Sliding_MenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6C92ABF1A0B6B5400B08E2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					F6C92AE11A0B6B5400B08E2C = {
+						TestTargetID = F6C92AC61A0B6B5400B08E2C;
+					};
+				};
+			};
+			buildConfigurationList = F6C92AC21A0B6B5400B08E2C /* Build configuration list for PBXProject "Demo_Sliding_Menu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F6C92ABE1A0B6B5400B08E2C;
+			productRefGroup = F6C92AC81A0B6B5400B08E2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6C92AC61A0B6B5400B08E2C /* Demo_Sliding_Menu */,
+				F6C92AE11A0B6B5400B08E2C /* Demo_Sliding_MenuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6C92AC51A0B6B5400B08E2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6C92AD51A0B6B5400B08E2C /* InfoPlist.strings in Resources */,
+				F6C92ADD1A0B6B5400B08E2C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6C92AE01A0B6B5400B08E2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6C92AEE1A0B6B5400B08E2C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6C92AC31A0B6B5400B08E2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6C92ADB1A0B6B5400B08E2C /* AppDelegate.m in Sources */,
+				F6C92B0E1A0B6E7F00B08E2C /* ECSlidingAnimationController.m in Sources */,
+				F6C92B121A0B6E7F00B08E2C /* UIViewController+ECSlidingViewController.m in Sources */,
+				F6C92B111A0B6E7F00B08E2C /* ECSlidingViewController.m in Sources */,
+				F6C92AFB1A0B6BF100B08E2C /* WMenuViewController.m in Sources */,
+				F6C92B0F1A0B6E7F00B08E2C /* ECSlidingInteractiveTransition.m in Sources */,
+				F6C92AD71A0B6B5400B08E2C /* main.m in Sources */,
+				F6C92B0D1A0B6E7F00B08E2C /* ECPercentDrivenInteractiveTransition.m in Sources */,
+				F6C92B151A0BC0C100B08E2C /* WDetailViewController.m in Sources */,
+				F6C92B101A0B6E7F00B08E2C /* ECSlidingSegue.m in Sources */,
+				F6C92AFE1A0B6CE500B08E2C /* WHomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6C92ADE1A0B6B5400B08E2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6C92AF01A0B6B5400B08E2C /* Demo_Sliding_MenuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6C92AE81A0B6B5400B08E2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6C92AC61A0B6B5400B08E2C /* Demo_Sliding_Menu */;
+			targetProxy = F6C92AE71A0B6B5400B08E2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6C92AD31A0B6B5400B08E2C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6C92AD41A0B6B5400B08E2C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F6C92AEC1A0B6B5400B08E2C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6C92AED1A0B6B5400B08E2C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6C92AF11A0B6B5400B08E2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F6C92AF21A0B6B5400B08E2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6C92AF41A0B6B5400B08E2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo_Sliding_Menu/Demo_Sliding_Menu-Prefix.pch";
+				INFOPLIST_FILE = "Demo_Sliding_Menu/Demo_Sliding_Menu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F6C92AF51A0B6B5400B08E2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo_Sliding_Menu/Demo_Sliding_Menu-Prefix.pch";
+				INFOPLIST_FILE = "Demo_Sliding_Menu/Demo_Sliding_Menu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F6C92AF71A0B6B5400B08E2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Demo_Sliding_Menu.app/Demo_Sliding_Menu";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo_Sliding_Menu/Demo_Sliding_Menu-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Demo_Sliding_MenuTests/Demo_Sliding_MenuTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F6C92AF81A0B6B5400B08E2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Demo_Sliding_Menu.app/Demo_Sliding_Menu";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo_Sliding_Menu/Demo_Sliding_Menu-Prefix.pch";
+				INFOPLIST_FILE = "Demo_Sliding_MenuTests/Demo_Sliding_MenuTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6C92AC21A0B6B5400B08E2C /* Build configuration list for PBXProject "Demo_Sliding_Menu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6C92AF11A0B6B5400B08E2C /* Debug */,
+				F6C92AF21A0B6B5400B08E2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6C92AF31A0B6B5400B08E2C /* Build configuration list for PBXNativeTarget "Demo_Sliding_Menu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6C92AF41A0B6B5400B08E2C /* Debug */,
+				F6C92AF51A0B6B5400B08E2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F6C92AF61A0B6B5400B08E2C /* Build configuration list for PBXNativeTarget "Demo_Sliding_MenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6C92AF71A0B6B5400B08E2C /* Debug */,
+				F6C92AF81A0B6B5400B08E2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6C92ABF1A0B6B5400B08E2C /* Project object */;
+}
